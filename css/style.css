@@ -1,44 +1,69 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-ThinItalic-webfont.eot');
-    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
-         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); 
+  font-family: 'Roboto';
+  src: url('Roboto-ThinItalic-webfont.eot');
+  src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-ThinItalic-webfont.woff') format('woff'),
+       url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+       url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); 
 }
 
 body {
-  background-color: #f4f4f4;
-  margin-top: 5%;
-  color: #fff;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.6em;
+background-color: #f4f4f4;
+margin-top: 5%;
+color: #fff;
+font-family: "Roboto", Arial, Helvetica, sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.6em;
 }
-h1 {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1, h2 {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 a:hover, a:link, a:active, a:visited {
-    text-decoration: none;
-    color: #fcc203;
+  text-decoration: none;
+  color: #fcc203;
 }
-.box {
-  background-color: #333;
-  max-width: 60%;
-  padding: 5%;
-  border-left: #fcc203 solid 20px;
-  border-right: #fcc203 solid 20px;
-  border-radius: 15px;
-  margin: auto;
-  text-align: center;
+main {
+display:flex;
+background-color: #333;
+max-width: 60%;
+height: 80%;
+padding: 5%;
+border-left: #fcc203 solid 20px;
+border-right: #fcc203 solid 20px;
+border-radius: 15px;
+margin: auto;
+text-align: center;
 }
+article.box, aside {
+display: block;
+width: 50%;
+float: left;
+
+}
+
 footer {
-  color: #333;
-  max-width: 70%;
-  margin: auto;
-  text-align: left;
+color: #333;
+max-width: 70%;
+margin: auto;
+text-align: left;
 }
 ul {
+text-align: left;
+}
+figcaption{
+font-size: 12px;
+}
+.ingredients {
+  display:block;
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.prepare {
+  display:block;
   text-align: left;
+
 }
