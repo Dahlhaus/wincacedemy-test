@@ -67,3 +67,9 @@ font-size: 12px;
   text-align: left;
 
 }
+.bon-appetit {
+  font: 400 3.5em/125% 'Leckerli One', Helvetica, Sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
